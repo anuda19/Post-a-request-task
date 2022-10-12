@@ -1,0 +1,190 @@
+.project_details {
+  position: absolute;
+  width: 159px;
+  height: 25px;
+  left: 311px;
+  top: 1300px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  color: #27272e;
+}
+.project_para {
+  position: absolute;
+  width: 506px;
+  height: 50px;
+  left: 311px;
+  top: 1350px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color: #27272e;
+}
+.details_area {
+  box-sizing: border-box;
+  position: absolute;
+  width: 506px;
+  height: 156px;
+  left: 311px;
+  top: 1430px;
+  background: #ffffff;
+  border: 1px solid #9fbbe5;
+  border-radius: 10px;
+}
+.upload {
+  box-sizing: border-box;
+  position: absolute;
+  width: 120px;
+  height: 36px;
+  left: 311px;
+  top: 1600px;
+  background: #ffffff;
+  border: 1px solid #00bfa6;
+  border-radius: 10px;
+}
+.file_icon {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 405px;
+  rotate: 45deg;
+  top: 1607px;
+}
+.budget {
+  position: absolute;
+  width: 137px;
+  height: 25px;
+  left: 311px;
+  top: 1700px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  color: #27272e;
+}
+.budget_para {
+  position: absolute;
+  width: 319px;
+  height: 25px;
+  left: 311px;
+  top: 1739px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color: #27272e;
+}
+.price {
+  box-sizing: border-box;
+  position: absolute;
+  width: 142px;
+  height: 50px;
+  left: 311px;
+  top: 1786px;
+  background: #ffffff;
+  border: 1px solid #9fbbe5;
+  border-radius: 10px;
+}
+.rupee_icon {
+  position: absolute;
+  width: 14px;
+  height: 25px;
+  left: 320px;
+  top: 1800px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  color: #27272e;
+}
+.submit_btn {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 143px;
+  height: 45px;
+  left: 674px;
+  top: 1863px;
+  background: #00b388;
+  border: 1px solid #9fbbe5;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .project_details {
+    left: 52px;
+    top: 1500px;
+    font-size: 20px;
+  }
+  .project_para {
+    left: 52px;
+    top: 1540px;
+  }
+  .details_area {
+    box-sizing: border-box;
+    position: absolute;
+    width: 306px;
+    height: 116px;
+    left: 52px;
+    top: 1630px;
+  }
+  .upload {
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 36px;
+    left: 52px;
+    top: 1770px;
+    background: #ffffff;
+    border: 1px solid #00bfa6;
+    border-radius: 10px;
+  }
+  .file_icon {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 145px;
+    top: 1775px;
+    rotate: 45deg;
+  }
+  .budget {
+    left: 52px;
+    top: 1820px;
+    font-size: 20px;
+  }
+  .budget_para {
+    left: 52px;
+    top: 1859px;
+  }
+  .price {
+    box-sizing: border-box;
+    width: 122px;
+    height: 40px;
+    left: 52px;
+    top: 1910px;
+  }
+  .rupee_icon {
+    left: 60px;
+    top: 1918px;
+  }
+  .submit_btn{
+width: 275px;
+height: 42px;
+left: calc(50% - 275px/2 + 0.5px);
+top: 1980px;
+background: #2B4BF2;
+border-radius: 8px;
+  }
+  .submit_btn_text{
+    color: white;
+    font-size: 16px;
+  }
+
+}

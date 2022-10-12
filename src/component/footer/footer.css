@@ -1,0 +1,255 @@
+.footer_main {
+  position: absolute;
+  width: 1440px;
+  height: 650px;
+  top: 2000px;
+  background: #161c28;
+}
+.group {
+  position: absolute;
+  width: 999px;
+  height: 231px;
+  left: 100px;
+  top: 50px;
+  color: white;
+}
+.simple {
+  color: lightseagreen;
+}
+.gigs_para {
+  position: absolute;
+  width: 461px;
+  height: 60px;
+  top: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #a6a6a6;
+}
+.social_icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  position: absolute;
+  width: 160px;
+  height: 32px;
+  top: 168px;
+}
+.started {
+  position: absolute;
+  width: 268px;
+  height: 68px;
+  left: 509px;
+  top: 60px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 68px;
+  color: #ffffff;
+}
+.vendor {
+  position: absolute;
+  width: 430px;
+  height: 62px;
+  left: 520px;
+  top: 200px;
+}
+.hire_vendor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  gap: 10px;
+  position: absolute;
+  width: 177px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  background: #54bd95;
+  border-radius: 40px;
+}
+.register_vendor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  gap: 10px;
+  position: absolute;
+  width: 238px;
+  height: 50px;
+  left: 192px;
+  top: 0px;
+  background: #54bd95;
+  border-radius: 40px;
+}
+.newsletter {
+  position: absolute;
+  width: 410px;
+  height: 184px;
+  left: -20px;
+}
+.newsletter_title {
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  left: 110px;
+top: 340px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 30px;
+  color: #54bd95;
+}
+.news_para {
+  position: absolute;
+  width: 323px;
+  height: 30px;
+  left: 110px;
+  top: 410px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #a6a6a6;
+}
+.newsletter_input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 310px;
+  height: 60px;
+  left: 110px;
+  top: 500px;
+  border: 2px solid #a6a6a6;
+  border-radius: 70px;
+}
+.input_icon {
+  position: absolute;
+  height: 49px;
+  width: 46px;
+  left: 368px;
+  top: 505px;
+  border-radius: 20px;
+  background: #54bd95;
+}
+.arrow_icon {
+  margin-top: 8px;
+  margin-left: 5px;
+}
+.footer_right {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  width: 650px;
+  height: 200px;
+  left: 550px;
+  top: 350px;
+}
+.support_title {
+  font-size: large;
+}
+.support_item {
+  font-size: large;
+  color: #a6a6a6;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer_main {
+        position: absolute;
+        width: 600px;
+        height: 828px;
+        top: 2050px;
+      }
+      .group {
+        left: 22px;
+        width: 300px;
+        top: 20px;
+      }
+      .gigs_para {
+        position: absolute;
+        width: 300px;
+        height: 60px;
+        top: 20px;
+      }
+      .gigs{
+        font-size: 20px;
+      }
+      .social_icon{
+        top: 150px;
+        gap: 10px;
+      }
+      .started{
+        left: 230px;
+        top: 70px;
+        font-size: 22px;
+      }
+      .vendor{
+        left: 160px;
+        top: 160px;
+      }
+      .hire_vendor{
+        width: 147px;
+        height: 42px;
+      }
+      .register_vendor{
+        width: 189px;
+        height: 42px;
+        left: 150px;
+      }
+      .hire_btn_text{
+        color: white;
+        font-size: 12px;
+      }
+      .register_btn_text{
+        color: white;
+        font-size: 12px;
+      }
+      .newsletter {
+        position: absolute;
+        width: 410px;
+        height: 184px;
+        left: -70px;
+        top: -70px;
+      }
+      .newsletter_title{
+        font-size: 30px;
+      }
+      .news_para{
+        top: 390px;
+    }
+    .newsletter_input{
+        width: 205px;
+        top: 470px;
+        height: 36.65px;
+      }
+      .input_icon {
+        height: 35px;
+        width: 32px;
+        left: 280px;
+        top: 471px;
+        border-radius: 30px;
+        background: #54bd95;
+      }
+      .arrow_icon {
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+      .footer_right{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        width: 480px;
+        height: 200px;
+        left: 25px;
+        top: 480px;
+      }
+}

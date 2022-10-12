@@ -1,0 +1,128 @@
+.work_location {
+  position: absolute;
+  left: 312px;
+  top: 750px;
+  font-size: 24px;
+}
+.enter_location {
+  position: absolute;
+  left: 311px;
+  top: 800px;
+  font-weight: 500;
+  font-size: 17px;
+}
+.location_input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 308px;
+  height: 45px;
+  left: 312px;
+  top: 860px;
+  background: #ffffff;
+  border: 1px solid #3e76cb;
+  border-radius: 8px;
+}
+.location_icon {
+  position: absolute;
+  width: 15px;
+  height: 21px;
+  left: 320px;
+  top: 871px;
+}
+.map {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 308px;
+  height: 163px;
+  left: 312px;
+  top: 950px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.date {
+  position: absolute;
+  width: 53px;
+  height: 25px;
+  left: 786px;
+  top: 750px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  color: #27272e;
+}
+.date_para {
+  position: absolute;
+  width: 288px;
+  height: 25px;
+  left: 786px;
+  top: 800px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color: #27272e;
+}
+.date_input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  gap: 10px;
+  position: absolute;
+  width: 343px;
+  height: 250px;
+  left: 786px;
+  top: 900px;
+  background: #ffffff;
+  box-shadow: 0px 0px 0.5px rgba(66, 71, 76, 0.32),
+    0px 4px 8px rgba(66, 71, 76, 0.05), 0px 4px 40px #eeeeee;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width:600px){
+    .work_location{
+        position: absolute;
+        left: 52px;
+        top: 1100px;
+        font-size: 20px;
+    }
+    .enter_location {
+        position: absolute;
+        left: 52px;
+        top: 1125px;
+        font-weight: 500;
+        font-size: 15px;
+      }
+      .location_input{
+        left: 52px;
+        top: 1200px;
+        width: 228px;
+        height: 35px;
+      }
+      .location_icon{
+        left: 55px;
+        top: 1205px;
+      }
+      .map{
+        left: 52px;
+        top: 1280px;
+      }
+      .date{
+        left: 52px;
+        top: 700px;
+      }
+      .date_para {
+        left: 52px;
+        top: 740px;
+      }
+      .date_input{
+        width: 243px;
+        height: 200px;
+        left: 52px;
+        top: 820px;
+      }
+}
