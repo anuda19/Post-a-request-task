@@ -2,7 +2,7 @@
   position: absolute;
   width: 1440px;
   height: 650px;
-  top: 2000px;
+  top: 1856px;
   background: #161c28;
 }
 .group {
@@ -51,6 +51,14 @@
   font-size: 40px;
   line-height: 68px;
   color: #ffffff;
+}
+.hire_btn_text{
+  color: white;
+  font-size: 16px;
+}
+.register_btn_text{
+  color: white;
+  font-size: 16px;
 }
 .vendor {
   position: absolute;

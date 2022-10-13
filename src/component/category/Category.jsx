@@ -11,7 +11,14 @@ const Category = () => {
           </div>
           <div className="select_category">
           <select name="category" className='dropdown'>
-            <option value="">Select service</option>
+            <option value="">Select Service</option>
+            <option value="">Freelance Photography</option>
+            <option value="">Videography</option>
+            <option value="">Product Photography</option>
+            <option value="">Event Photography</option>
+            <option value="">Wedding Photography</option>
+            <option value="">Make-up Artist</option>
+            <option value="">Planner</option>
           </select>
           </div>
       </div>

@@ -18,6 +18,9 @@
   height: 45px;
   left: 312px;
   top: 860px;
+  padding-left: 30px;
+  font-size: medium;
+  font-weight: bold;
   background: #ffffff;
   border: 1px solid #3e76cb;
   border-radius: 8px;
@@ -31,7 +34,6 @@
 }
 .map {
   box-sizing: border-box;
-
   position: absolute;
   width: 308px;
   height: 163px;
@@ -102,6 +104,9 @@
         top: 1200px;
         width: 228px;
         height: 35px;
+        padding-left: 28px;
+        font-size: medium;
+        font-weight: bold;
       }
       .location_icon{
         left: 55px;

@@ -3,7 +3,7 @@
   width: 159px;
   height: 25px;
   left: 311px;
-  top: 1300px;
+  top: 1185px;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
@@ -16,7 +16,7 @@
   width: 506px;
   height: 50px;
   left: 311px;
-  top: 1350px;
+  top: 1235px;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
@@ -30,7 +30,10 @@
   width: 506px;
   height: 156px;
   left: 311px;
-  top: 1430px;
+  top: 1326px;
+  padding-left: 30px;
+    font-size: medium;
+    font-weight: bold;
   background: #ffffff;
   border: 1px solid #9fbbe5;
   border-radius: 10px;
@@ -41,7 +44,7 @@
   width: 120px;
   height: 36px;
   left: 311px;
-  top: 1600px;
+  top: 1505px;
   background: #ffffff;
   border: 1px solid #00bfa6;
   border-radius: 10px;
@@ -52,14 +55,14 @@
   height: 14px;
   left: 405px;
   rotate: 45deg;
-  top: 1607px;
+  top: 1513px;
 }
 .budget {
   position: absolute;
   width: 137px;
   height: 25px;
   left: 311px;
-  top: 1700px;
+  top: 1578px;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
@@ -72,7 +75,7 @@
   width: 319px;
   height: 25px;
   left: 311px;
-  top: 1739px;
+  top: 1627px;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
@@ -86,7 +89,10 @@
   width: 142px;
   height: 50px;
   left: 311px;
-  top: 1786px;
+  top: 1686px;
+  padding-left: 30px;
+    font-size: medium;
+    font-weight: bold;
   background: #ffffff;
   border: 1px solid #9fbbe5;
   border-radius: 10px;
@@ -96,7 +102,7 @@
   width: 14px;
   height: 25px;
   left: 320px;
-  top: 1800px;
+  top: 1699px;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 700;
@@ -106,15 +112,18 @@
 }
 .submit_btn {
   box-sizing: border-box;
-
   position: absolute;
-  width: 143px;
-  height: 45px;
-  left: 674px;
-  top: 1863px;
+  width: 172px;
+    height: 45px;
+    left: 674px;
+    top: 1760px;
   background: #00b388;
   border: 1px solid #9fbbe5;
   border-radius: 5px;
+}
+.submit_btn_text{
+  color: white;
+  font-weight: bolder;
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,4 +1,4 @@
-.navbar {
+  .navbar {
   position: absolute;
   width: 1205px;
   height: 64.26px;
@@ -31,6 +31,7 @@
   height: 30px;
   left: 1093px;
   top: 24px;    
+  pointer-events: none;
 }
 .search {
   /* position: absolute; */
@@ -89,14 +90,27 @@
 .vendor_register{
     display: none;
 }
-
+.service_item{
+  display: none;
+}
+.nav_list{
+  display: none;
+}
 @media only screen and (max-width: 600px) {
+  .nav{
+    position: absolute;
+    width: 1205px;
+    height: 64.26px;
+    left: 118px;
+    top: 12px;
+  }
   .menu_icon {
     position: absolute;
     width: 28px;
     height: 30px;
     left: -50px;
     top: 5px;
+    pointer-events: all;
   }
   .hamburger_icon {
     position: absolute;
@@ -105,6 +119,24 @@
     border-radius: 16px;
   }
   .nav_items{
+    display: none;
+  }
+  .nav_list{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    width: 167px;
+    height: 180px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    left: -117px;
+    top: 44px;
+    z-index: 1;
+  }
+  .avtar{
     display: none;
   }
   .logo {
@@ -135,5 +167,31 @@ font-size: 15px;
 display: flex;
 align-items: center;
 color: #FFFFFF;
+  }
+  .search{
+    display: none;
+  }
+  .services {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #0d2f62;
+    opacity: 0.8;
+  }
+  .service_item{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: relative;
+width: 35px;
+left: -59px;
+    top: 45px;
+height: 28px;
+  }
+  .service_item p{
+    margin-top: -10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+opacity: 0.8;
   }
 }
